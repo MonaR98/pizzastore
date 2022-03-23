@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat&family=Licorice&family=Moon+Dance&family=The+Nautigal:wght@400;700&family=Vujahday+Script&display=swap');
+.header-container{
+    background-color:rgba(255, 94, 0, 0.76);
+    padding: "15px 50px";
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-container-content{
+    height:10vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.header-title{
+    margin-left: 90px;
+    font-size: 30;
+    color: #fffb05;
+    font-family: 'Moon Dance',
+}
+.logo{
+    margin-left: 30px;
+    position: absolute;
+    border-radius: 70%;
+}
