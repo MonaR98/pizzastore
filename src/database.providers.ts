@@ -13,6 +13,9 @@ export const databaseProviders = [
         username: 'postgres',
         password: 'postgres',
         database: 'pizzastore',
+        define: {
+            timestamps: false
+          },
       });
       sequelize.addModels([User]);
       await sequelize.sync();
